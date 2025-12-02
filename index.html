@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@artistname • Instagram</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <h1 class="logo">Mythagram</h1>
+                <div class="header-icons">
+                </div>
+            </div>
+        </header>
+
+        <!-- Profile Section -->
+        <div class="profile-section">
+            <div class="profile-picture">
+                <img src="https://picsum.photos/150/150?random=100" alt="Profile Picture">
+            </div>
+            <div class="profile-info">
+                <div class="profile-header">
+                    <h2 class="username">@orpheus.live</h2>
+                    <button class="btn-follow">Follow</button>
+                    <button class="btn-message">Message</button>
+                    <svg class="icon-more" fill="currentColor" viewBox="0 0 24 24"><path d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"/></svg>
+                </div>
+                <div class="profile-stats">
+                    <div class="stat"><strong>12</strong> posts</div>
+                    <div class="stat"><strong>12.5M</strong> followers</div>
+                    <div class="stat"><strong>89</strong> following</div>
+                </div>
+                <div class="profile-bio">
+                    <h3 class="bio-name">Orpheus Calder</h3>
+                    <p class="bio-text">🎵 Grammy Award Winner | 🎤 Multi-Platinum Artist</p>
+                    <p class="bio-text">New Song "Don't Look Back" Out Now! 🌙</p>
+                    <p class="bio-text">She's not gone. She's just... earlier.</p>
+                    <p class="bio-text">📧 Contact: management@orpheus.com</p>
+                    <a href="#" class="bio-link">linktr.ee/orpheus</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Posts Grid -->
+        <div class="posts-section">
+            <div class="posts-tabs">
+                <button class="tab active" data-tab="posts">
+                    <svg class="tab-icon" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                    POSTS
+                </button>
+                <button class="tab" data-tab="reels">
+                    <svg class="tab-icon" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                    REELS
+                </button>
+                <button class="tab" data-tab="tagged">
+                    <svg class="tab-icon" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
+                    TAGGED
+                </button>
+            </div>
+
+            <!-- Posts Grid -->
+            <div class="posts-grid active" id="posts-grid">
+                <!-- Post 1 -->
+                <div class="post-item" data-post-type="post" data-images='["https://picsum.photos/800/800?random=1"]' data-likes="125K" data-comments="2.3K" data-caption="New single 'Midnight Dreams' is out now! 🌙✨ This one is special to me. What do you think? #NewMusic #MidnightDreams">
+                    <div class="post-image">
+                        <img src="https://picsum.photos/300/300?random=1" alt="Post">
+                        <div class="post-overlay">
+                            <div class="post-stats">
+                                <span>❤️ 125K</span>
+                                <span>💬 2.3K</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Post 2 -->
+                <div class="post-item" data-post-type="post" data-images='["https://picsum.photos/800/800?random=2", "https://picsum.photos/800/800?random=201"]' data-likes="98K" data-comments="1.8K" data-caption="Studio session vibes 🎤✨ Working on something special for you all!">
+                    <div class="post-image">
+                        <img src="https://picsum.photos/300/300?random=2" alt="Post">
+                        <div class="post-overlay">
+                            <div class="post-stats">
+                                <span>❤️ 98K</span>
+                                <span>💬 1.8K</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Post 3 -->
+                <div class="post-item" data-post-type="post" data-images='["https://picsum.photos/800/800?random=3"]' data-likes="250K" data-comments="5.1K" data-caption="Album cover reveal! 🎵 So excited to share this with you all. Pre-order link in bio!">
+                    <div class="post-image">
+                        <img src="https://picsum.photos/300/300?random=3" alt="Post">
+                        <div class="post-overlay">
+                            <div class="post-stats">
+                                <span>❤️ 250K</span>
+                                <span>💬 5.1K</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Post 4 -->
+                <div class="post-item" data-post-type="post" data-images='["https://picsum.photos/800/800?random=4", "https://picsum.photos/800/800?random=401", "https://picsum.photos/800/800?random=402"]' data-likes="87K" data-comments="1.5K" data-caption="Behind the scenes from the music video shoot! 🎬 So much fun creating this visual story.">
+                    <div class="post-image">
+                        <img src="https://picsum.photos/300/300?random=4" alt="Post">
+                        <div class="post-overlay">
+                            <div class="post-stats">
+                                <span>❤️ 87K</span>
+                                <span>💬 1.5K</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Post 5 -->
+                <div class="post-item" data-post-type="post" data-images='["https://picsum.photos/800/800?random=5"]' data-likes="312K" data-comments="7.2K" data-caption="Music video premiere tonight at 8PM! 🎥 Don't miss it! #NewVideo">
+                    <div class="post-image">
+                        <img src="https://picsum.photos/300/300?random=5" alt="Post">
+                        <div class="post-overlay">
+                            <div class="post-stats">
+                                <span>❤️ 312K</span>
+                                <span>💬 7.2K</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Post 6 -->
+                <div class="post-item" data-post-type="post" data-images='["https://picsum.photos/800/800?random=6"]' data-likes="189K" data-comments="4.3K" data-caption="World tour dates announced! 🌍 See you soon! Tickets on sale Friday. Link in bio!">
+                    <div class="post-image">
+                        <img src="https://picsum.photos/300/300?random=6" alt="Post">
+                        <div class="post-overlay">
+                            <div class="post-stats">
+                                <span>❤️ 189K</span>
+                                <span>💬 4.3K</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Reels Grid -->
+            <div class="posts-grid" id="reels-grid">
+                <div class="post-item reel-item" data-post-type="reel" data-images='["https://picsum.photos/800/800?random=10"]' data-likes="89K" data-comments="1.2K" data-caption="Quick studio update! 🎵 New music coming soon!">
+                    <div class="post-image">
+                        <img src="https://picsum.photos/300/500?random=10" alt="Reel">
+                        <div class="post-overlay">
+                            <div class="reel-icon">▶️</div>
+                            <div class="post-stats">
+                                <span>❤️ 89K</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-item reel-item" data-post-type="reel" data-images='["https://picsum.photos/800/800?random=11"]' data-likes="156K" data-comments="2.5K" data-caption="Dance challenge! 💃 Show me your moves!">
+                    <div class="post-image">
+                        <img src="https://picsum.photos/300/500?random=11" alt="Reel">
+                        <div class="post-overlay">
+                            <div class="reel-icon">▶️</div>
+                            <div class="post-stats">
+                                <span>❤️ 156K</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-item reel-item" data-post-type="reel" data-images='["https://picsum.photos/800/800?random=12"]' data-likes="203K" data-comments="3.1K" data-caption="Behind the scenes of the music video! 🎬">
+                    <div class="post-image">
+                        <img src="https://picsum.photos/300/500?random=12" alt="Reel">
+                        <div class="post-overlay">
+                            <div class="reel-icon">▶️</div>
+                            <div class="post-stats">
+                                <span>❤️ 203K</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-item reel-item" data-post-type="reel" data-images='["https://picsum.photos/800/800?random=13"]' data-likes="134K" data-comments="1.9K" data-caption="Acoustic version of my latest single 🎸">
+                    <div class="post-image">
+                        <img src="https://picsum.photos/300/500?random=13" alt="Reel">
+                        <div class="post-overlay">
+                            <div class="reel-icon">▶️</div>
+                            <div class="post-stats">
+                                <span>❤️ 134K</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-item reel-item" data-post-type="reel" data-images='["https://picsum.photos/800/800?random=14"]' data-likes="178K" data-comments="2.8K" data-caption="Tour life! 🎤 On the road with the best team!">
+                    <div class="post-image">
+                        <img src="https://picsum.photos/300/500?random=14" alt="Reel">
+                        <div class="post-overlay">
+                            <div class="reel-icon">▶️</div>
+                            <div class="post-stats">
+                                <span>❤️ 178K</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-item reel-item" data-post-type="reel" data-images='["https://picsum.photos/800/800?random=15"]' data-likes="245K" data-comments="4.2K" data-caption="New song preview! What do you think? 🎵">
+                    <div class="post-image">
+                        <img src="https://picsum.photos/300/500?random=15" alt="Reel">
+                        <div class="post-overlay">
+                            <div class="reel-icon">▶️</div>
+                            <div class="post-stats">
+                                <span>❤️ 245K</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tagged Grid -->
+            <div class="posts-grid" id="tagged-grid">
+                <div class="post-item" data-post-type="tagged" data-images='["https://picsum.photos/800/800?random=20"]' data-likes="45K" data-comments="890" data-caption="Tagged by @fan_account_1 - Thanks for the love! ❤️">
+                    <div class="post-image">
+                        <img src="https://picsum.photos/300/300?random=20" alt="Tagged">
+                        <div class="post-overlay">
+                            <div class="post-stats">
+                                <span>❤️ 45K</span>
+                                <span>💬 890</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-item" data-post-type="tagged" data-images='["https://picsum.photos/800/800?random=21"]' data-likes="67K" data-comments="1.2K" data-caption="Tagged by @music_magazine - Featured in their latest issue! 📰">
+                    <div class="post-image">
+                        <img src="https://picsum.photos/300/300?random=21" alt="Tagged">
+                        <div class="post-overlay">
+                            <div class="post-stats">
+                                <span>❤️ 67K</span>
+                                <span>💬 1.2K</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-item" data-post-type="tagged" data-images='["https://picsum.photos/800/800?random=22"]' data-likes="92K" data-comments="1.8K" data-caption="Tagged by @concert_venue - Amazing show last night! 🎤">
+                    <div class="post-image">
+                        <img src="https://picsum.photos/300/300?random=22" alt="Tagged">
+                        <div class="post-overlay">
+                            <div class="post-stats">
+                                <span>❤️ 92K</span>
+                                <span>💬 1.8K</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-item" data-post-type="tagged" data-images='["https://picsum.photos/800/800?random=23"]' data-likes="34K" data-comments="567" data-caption="Tagged by @radio_station - Live performance! 🎵">
+                    <div class="post-image">
+                        <img src="https://picsum.photos/300/300?random=23" alt="Tagged">
+                        <div class="post-overlay">
+                            <div class="post-stats">
+                                <span>❤️ 34K</span>
+                                <span>💬 567</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-item" data-post-type="tagged" data-images='["https://picsum.photos/800/800?random=24"]' data-likes="78K" data-comments="1.5K" data-caption="Tagged by @fashion_brand - Wearing their latest collection! 👗">
+                    <div class="post-image">
+                        <img src="https://picsum.photos/300/300?random=24" alt="Tagged">
+                        <div class="post-overlay">
+                            <div class="post-stats">
+                                <span>❤️ 78K</span>
+                                <span>💬 1.5K</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-item" data-post-type="tagged" data-images='["https://picsum.photos/800/800?random=25"]' data-likes="56K" data-comments="987" data-caption="Tagged by @award_show - Thank you for the nomination! 🏆">
+                    <div class="post-image">
+                        <img src="https://picsum.photos/300/300?random=25" alt="Tagged">
+                        <div class="post-overlay">
+                            <div class="post-stats">
+                                <span>❤️ 56K</span>
+                                <span>💬 987</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal Popup -->
+        <div class="modal-overlay" id="modal-overlay">
+            <div class="modal-close" id="modal-close">✕</div>
+            <div class="modal-content">
+                <div class="modal-image-section">
+                    <button class="modal-nav-btn modal-nav-left" id="modal-nav-left">‹</button>
+                    <div class="modal-image-container">
+                        <img id="modal-image" src="" alt="Post Image">
+                    </div>
+                    <button class="modal-nav-btn modal-nav-right" id="modal-nav-right">›</button>
+                </div>
+                <div class="modal-info-section">
+                    <div class="modal-header">
+                        <img src="https://picsum.photos/32/32?random=100" alt="Author" class="author-avatar">
+                        <span class="author-name">artistname</span>
+                        <svg class="icon-more" fill="currentColor" viewBox="0 0 24 24"><path d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"/></svg>
+                    </div>
+                    <div class="modal-comments-container">
+                        <div class="modal-actions">
+                            <div class="action-icons">
+                                <svg class="action-icon" fill="currentColor" viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+                                <svg class="action-icon" fill="currentColor" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-2-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg>
+                                <svg class="action-icon" fill="currentColor" viewBox="0 0 24 24"><path d="M17.53 7.47l-5-5c-.293-.293-.768-.293-1.06 0l-5 5c-.294.293-.294.768 0 1.06s.767.294 1.06 0L11 5.06V16.5c0 .276.224.5.5.5s.5-.224.5-.5V5.06l3.47 3.47c.146.147.339.22.53.22s.384-.072.53-.22c.293-.293.293-.767 0-1.06z"/></svg>
+                            </div>
+                            <svg class="action-icon bookmark" fill="currentColor" viewBox="0 0 24 24"><path d="M17 3H7c-1.1 0-2 .9-2 2v16l7-3 7 3V5c0-1.1-.9-2-2-2z"/></svg>
+                        </div>
+                        <div class="modal-likes" id="modal-likes"></div>
+                        <div class="modal-caption" id="modal-caption"></div>
+                        <div class="modal-time">2 HOURS AGO</div>
+                        <div class="modal-comments" id="modal-comments"></div>
+                    </div>
+                    <div class="modal-add-comment">
+                        <input type="text" placeholder="Add a comment..." class="comment-input">
+                        <button class="post-comment-btn">Post</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        // Tab switching functionality
+        const tabs = document.querySelectorAll('.tab');
+        const postsGrid = document.getElementById('posts-grid');
+        const reelsGrid = document.getElementById('reels-grid');
+        const taggedGrid = document.getElementById('tagged-grid');
+
+        tabs.forEach(tab => {
+            tab.addEventListener('click', () => {
+                // Remove active class from all tabs
+                tabs.forEach(t => t.classList.remove('active'));
+                // Add active class to clicked tab
+                tab.classList.add('active');
+
+                // Hide all grids
+                postsGrid.classList.remove('active');
+                reelsGrid.classList.remove('active');
+                taggedGrid.classList.remove('active');
+
+                // Show selected grid
+                const tabType = tab.getAttribute('data-tab');
+                if (tabType === 'posts') {
+                    postsGrid.classList.add('active');
+                } else if (tabType === 'reels') {
+                    reelsGrid.classList.add('active');
+                } else if (tabType === 'tagged') {
+                    taggedGrid.classList.add('active');
+                }
+            });
+        });
+
+        // Modal functionality
+        const modalOverlay = document.getElementById('modal-overlay');
+        const modalClose = document.getElementById('modal-close');
+        const modalImage = document.getElementById('modal-image');
+        const modalLikes = document.getElementById('modal-likes');
+        const modalCaption = document.getElementById('modal-caption');
+        const modalComments = document.getElementById('modal-comments');
+        const modalNavLeft = document.getElementById('modal-nav-left');
+        const modalNavRight = document.getElementById('modal-nav-right');
+
+        let currentImages = [];
+        let currentImageIndex = 0;
+
+        // Pre-generated comments
+        const commentsList = [
+            { author: 'fan_account_1', text: 'This is absolutely amazing! 🔥 Can\'t stop listening!' },
+            { author: 'music_lover99', text: 'Your best work yet! The production is incredible 👏' },
+            { author: 'concert_goer', text: 'When is the tour starting? I need tickets! 🎫' },
+            { author: 'lyrics_enthusiast', text: 'The lyrics hit different. So emotional and beautiful 💙' },
+            { author: 'dj_producer', text: 'The beat drop is insane! 🔥🔥🔥' },
+            { author: 'fan_account_1', text: 'Already on repeat! This is going to be my summer anthem 🎵' },
+            { author: 'music_critic', text: 'The vocal range in this track is impressive. Well done!' },
+            { author: 'night_listener', text: 'Perfect for late night drives. The vibes are immaculate 🌃' },
+            { author: 'artistname', text: 'Thank you all for the love! ❤️ This means everything to me' },
+            { author: 'stream_team', text: 'Streaming on all platforms! Let\'s get this to #1! 🚀' }
+        ];
+
+        function openModal(postItem) {
+            const images = JSON.parse(postItem.getAttribute('data-images'));
+            const likes = postItem.getAttribute('data-likes');
+            const comments = postItem.getAttribute('data-comments');
+            const caption = postItem.getAttribute('data-caption');
+
+            currentImages = images;
+            currentImageIndex = 0;
+
+            modalImage.src = currentImages[0];
+            modalLikes.innerHTML = `<strong>${likes} likes</strong>`;
+            modalCaption.innerHTML = `<span class="caption-author">artistname</span> <span class="caption-text">${caption}</span>`;
+
+            // Generate random comments
+            const numComments = Math.floor(Math.random() * 5) + 5; // 5-10 comments
+            const shuffledComments = [...commentsList].sort(() => 0.5 - Math.random()).slice(0, numComments);
+            modalComments.innerHTML = shuffledComments.map(comment => 
+                `<div class="comment"><span class="comment-author">${comment.author}</span> <span class="comment-text">${comment.text}</span></div>`
+            ).join('');
+
+            // Show/hide navigation buttons
+            modalNavLeft.style.display = currentImages.length > 1 ? 'flex' : 'none';
+            modalNavRight.style.display = currentImages.length > 1 ? 'flex' : 'none';
+
+            modalOverlay.style.display = 'flex';
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeModal() {
+            modalOverlay.style.display = 'none';
+            document.body.style.overflow = 'auto';
+        }
+
+        function navigateImage(direction) {
+            if (currentImages.length <= 1) return;
+
+            if (direction === 'left') {
+                currentImageIndex = (currentImageIndex - 1 + currentImages.length) % currentImages.length;
+            } else {
+                currentImageIndex = (currentImageIndex + 1) % currentImages.length;
+            }
+
+            modalImage.src = currentImages[currentImageIndex];
+        }
+
+        // Event listeners
+        document.querySelectorAll('.post-item').forEach(item => {
+            item.addEventListener('click', () => openModal(item));
+        });
+
+        modalClose.addEventListener('click', closeModal);
+        modalOverlay.addEventListener('click', (e) => {
+            if (e.target === modalOverlay) closeModal();
+        });
+
+        modalNavLeft.addEventListener('click', (e) => {
+            e.stopPropagation();
+            navigateImage('left');
+        });
+
+        modalNavRight.addEventListener('click', (e) => {
+            e.stopPropagation();
+            navigateImage('right');
+        });
+
+        // Keyboard navigation
+        document.addEventListener('keydown', (e) => {
+            if (modalOverlay.style.display === 'flex') {
+                if (e.key === 'Escape') closeModal();
+                if (e.key === 'ArrowLeft') navigateImage('left');
+                if (e.key === 'ArrowRight') navigateImage('right');
+            }
+        });
+    </script>
+</body>
+</html>
+
